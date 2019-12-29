@@ -141,7 +141,10 @@ class SignOnWithLogo extends StatelessWidget {
                   fontSize: 15),
             ),
           ),
-        )
+        ),
+        SizedBox(height: 100,),
+        Text("FORGOT PASSWORD?   CLICK HERE", style: TextStyle(color: Color.fromRGBO(211, 56, 107, 1),fontSize: 15, fontWeight: FontWeight.bold),)
+        
       ],
     );
   }
